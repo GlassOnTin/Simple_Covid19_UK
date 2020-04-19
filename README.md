@@ -15,7 +15,7 @@ The model fits the following parameters for discrete periods of lockdown / free 
 * Recovery rate (gamma) - 4 days to recover;
 * Hospitalisation rate - 42% of postive tested cases.
 
-To constrain the simple model further, the peak hospitalisation rate is fixed at 25,000 based on predictions from the professional Imperial College model.
+To constrain the model the peak hospitalisation rate is fixed at 25,000 based on predictions from the professional Imperial College model.
 
 The critical piece of information missing from the model is the proportion of infections that are asymptomatic.  Without this information it is not possible to judge the best strategy to lift the lockdown.  
 
