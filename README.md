@@ -9,11 +9,11 @@ This model partitions the United Kingdom population into three situations:
 The model is fitted to data collated from the [2020 coronavirus pandemic in the United Kingdom](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_Kingdom) wiki page.
 
 The model fits the following parameters for discrete periods of lockdown / free movement:
-* Reproductive rate, R(t);
-* Case fatality rate, CFR(t);
-* Proportion of cases that are tested and test positive for COVID-19;
-* Recovery rate (gamma);
-* Hospitalisation rate.
+* Reproductive rate, R(t) = 2.0 before lockdown, 1.1 after lockdown;
+* Case fatality rate, CFR(t) = 2% of confirmed cases;
+* Proportion of cases that are tested and test positive for COVID-19 = 7% to 2%;
+* Recovery rate (gamma) - 4 days to recover;
+* Hospitalisation rate - 42% of postive tested cases.
 
 To constrain the simple model further, the peak hospitalisation rate is fixed at 25,000 based on predictions from the professional Imperial College model.
 
