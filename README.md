@@ -1,4 +1,4 @@
-# A Simple Covid-19 Compartmental Model for the United Kingdom
+# A Simple Covid-19 compartmental model for the United Kingdom
 A simple (naive, empirical, student, amateur) [compartmental epidiemiological model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) of the Covid-19 outbreak in the United Kingdom, using the Microsoft Excel solver to optimise the parameters.
 
 This model partitions the United Kingdom population into three situations:
@@ -22,3 +22,13 @@ The critical piece of information missing from the model is the proportion of in
 A scenario is modelled where the lockdown of April 2020 is continued until August 2020.  Assuming 5% of cases are asymptomatic, it looks like by August 2020 we still haven't established herd-immunity as only 30% of the population are immune.  Lifting the lockdown in August for 3 weeks takes the hospitalisation rate back up to 25,000 cases but gets the immunity up to 36%.   Reintroducing full lockdown again for a month gets the hospitalisation back down again.  Lifting the lockdown for a full month this time then gets us to 42% of the population being immune.  By repeating the lockdown, release, lockdown, release we can keep the number of hospitalised cases below 25,000 and eventually reach herd-immunity in early 2021.  
 
 If we don't lift the lockdown, then we have to use other strategies such as testing, contact-tracing or vaccination.
+
+## Charts for 5% symptomatic scenario
+![Hospitalisation](Hospitalised.png?raw=true "Hospitalisation")
+![Immune](Immune.png?raw=true "Immune")
+![Positive Test Rate](PositiveTestRate.png?raw=true "Positive Test Rate")
+![Fatality Rate](FatalityRate.png?raw=true "Fatality Rate")
+![Deceased](Deceased.png?raw=true "Deceased")
+![Infected](Infected.png?raw=true "Infected")
+
+
