@@ -3,7 +3,7 @@ A simple (naive, empirical, student, amateur) [compartmental epidemiological mod
 
 This model partitions the United Kingdom population into three situations:
 * Susceptible - those who are prone to infection with Covid-19;
-* Infected - those who currently infected and contagious;
+* Infected - those who are currently infected and contagious;
 * Recovered / deceased - those who have had the virus.
 
 The model is fitted to data collated from the [2020 coronavirus pandemic in the United Kingdom](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_Kingdom) wiki page.
