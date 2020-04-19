@@ -15,7 +15,7 @@ The model fits the following parameters for discrete periods of lockdown / free 
 * Recovery rate (gamma);
 * Hospitalisation rate.
 
-To constrain the simple model further, the peak hospitalisation rate is fixed at 25,000 based on predictions from the professional Imperial College model.  Also, to fit the positive test rate data I've set a limit of 5000 cases per day.
+To constrain the simple model further, the peak hospitalisation rate is fixed at 25,000 based on predictions from the professional Imperial College model.
 
 The critical piece of information missing from the model is the proportion of infections that are asymptomatic.  Without this information it is not possible to judge the best strategy to lift the lockdown.  
 
