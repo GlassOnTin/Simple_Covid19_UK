@@ -11,7 +11,7 @@ The model is fitted to data collated from the [2020 coronavirus pandemic in the 
 The model fits the following parameters for discrete periods of lockdown / free movement:
 * Reproductive rate, R(t);
 * Case fatality rate, CFR(t);
-* Proportion of cases that are tested and are test positive for COVID-19;
+* Proportion of cases that are tested and test positive for COVID-19;
 * Recovery rate (gamma);
 * Hospitalisation rate.
 
