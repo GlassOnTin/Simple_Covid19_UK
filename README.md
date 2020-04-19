@@ -1,4 +1,4 @@
-# Simple_Covid19_UK
+# A Simple Covid-19 Compartmental Model for the United Kingdom
 A simple (naive, empirical, student, amateur) [compartmental epidiemiological model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) of the Covid-19 outbreak in the United Kingdom, using the Microsoft Excel solver to optimise the parameters.
 
 This model partitions the United Kingdom population into three situations:
