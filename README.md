@@ -17,7 +17,7 @@ The model fits the following parameters:
 
 To constrain the model the peak hospitalisation rate is fixed at 25,000 based on predictions from the professional Imperial College model.
 
-The critical piece of information missing from the model is the proportion of infections that are asymptomatic.  Without this information it is not possible to judge the best strategy to lift the lockdown.  
+The critical piece of information missing from the model is the proportion of infections that are asymptomatic.  However, it can be seen that ~5% gives the right shape to the infection rate and deceased rate curves.  Without this information it is not possible to judge the best strategy to lift the lockdown.  
 
 A scenario is modelled where the lockdown of April 2020 is continued until August 2020.  Assuming 5% of cases are symptomatic, tested, and test positive, then it looks like by August 2020 we still haven't established herd-immunity as only 30% of the population are immune.  Lifting the lockdown in August for 3 weeks takes the hospitalisation rate back up to 25,000 cases but gets the immunity up to 36%.   Reintroducing full lockdown again for a month gets the hospitalisation back down again.  Lifting the lockdown for a full month this time then gets us to 42% of the population being immune.  By repeating the lockdown, release, lockdown, release we can keep the number of hospitalised cases below 25,000 and eventually reach herd-immunity in early 2021.  
 
