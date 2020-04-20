@@ -6,9 +6,9 @@ This model partitions the United Kingdom population into three situations:
 * Infected - those who are currently infected and contagious;
 * Recovered / deceased - those who have had the virus.
 
-The model is fitted to data collated from the [2020 coronavirus pandemic in the United Kingdom](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_Kingdom) wiki page.
+The model is fitted to data collated on the [2020 coronavirus pandemic in the United Kingdom](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_Kingdom) wiki page.
 
-The model fits the following parameters for discrete periods of lockdown / free movement:
+The model fits the following parameters:
 * Reproductive rate, R(t) = 2.0 before lockdown, 1.1 after lockdown;
 * Case fatality rate, CFR(t) = 2% of confirmed cases;
 * Proportion of cases that are tested and test positive for COVID-19 = 7% to 2%;
