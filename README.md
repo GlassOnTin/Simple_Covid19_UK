@@ -9,23 +9,19 @@ This model partitions the United Kingdom population into three situations:
 The model is fitted to data collated from the [2020 coronavirus pandemic in the United Kingdom](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_Kingdom) wiki page.
 
 The model fits the following parameters for discrete periods of lockdown / free movement:
-* Reproductive rate, R(t) = 2.0 before lockdown, 1.1 after lockdown;
+* Reproductive rate, R(t) = 2.7 before lockdown, 1.3 after lockdown;
 * Case fatality rate, CFR(t) = 2% of confirmed cases;
-* Proportion of cases that are symptomatic, _tested and test positive for COVID-19_ = 4% to 2%;
+* Proportion of cases that are symptomatic, _tested and test positive for COVID-19_ = 3% to 1.5%;
 * Recovery rate (gamma) - 4 days to recover;
 * Hospitalisation rate of infected cases - 2%
 
-The proportion of cases that are symptomatic, tested and test positive parameter is the most critical piece of information to judge the best strategy to lift the lockdown.  This parameter wraps-up both the testing rate _and_ the proportion of symptomatic cases together.  Doubling this parameter still gives a reasonable fit to the data but has a huge effect on the surge of cases when lockdown is lifted.  If there are a lot of asymptomatic cases who don't get tested, then many more of the population will become immune before we lift lockdown.  But if there are very few asymptomatic cases, then a low proportion of the population becomes immune in the same time.
+The proportion of cases that are symptomatic, tested and test positive parameter is the most critical piece of information to judge the best strategy to lift the lockdown.  This parameter wraps-up both the testing rate _and_ the proportion of symptomatic cases together.  Once the position of the peak was known, there was enough information to fit this parameter.
 
-The hospitalisation rate of positively tested cases is calculated by fixing the maximum hospitalisation level to 25,000 based on predictions from the professional Imperial College model.
+The hospitalisation rate of positively tested cases is calculated by fixing the maximum hospitalisation level to 25,000 based on Office for National Statistics data.
 
-A scenario is modelled where the lockdown of April 2020 is continued until August 2020.  Assuming 4% of UK cases are symptomatic, tested and test positive, then it looks like by August 2020 we still haven't established herd-immunity to lift lockdown.  By August, only 34% of the population are immune.  
+A scenario is modelled where the lockdown of April 2020 is continued until August 2020.  The model results indicate 35% of the population are immune by August and the positive test rates will have dropped to 50 per day and 250 Covid-19 patients will still be in hospital. Lifting the lockdown for the month of August takes the hospitalised cases back up to 1,400 cases and causes a further 800 hospitalised deaths.   Reintroducing full lockdown again in September gets the hospitalisation back down again.  The real test is how fast the infection rate picks up again when lock-down is lifted.
 
-In this scenario, lifting the lockdown in August for 3 weeks takes the hospitalisation rate back up to 3,500 cases but gets the immunity up to 36%.   Reintroducing full lockdown again for a month gets the hospitalisation back down again.  Lifting the lockdown againt for a full month this time then gets us to 38% of the population being immune.  By repeating the lockdown, release, lockdown, release we can keep the number of hospitalised cases low and eventually reach herd-immunity in 2021.  The real test is how fast the infection rate picks up again when lock-down is lifted.
-
-If we don't lift the lockdown, then we have to use other strategies such as testing, contact-tracing or vaccination.
-
-## Charts for 4% symptomatic, and tested, and positive scenario
+## Charts assuming lockdown is lifted in August 2020
 ![Hospitalisation](Hospitalised.png?raw=true "Hospitalisation")
 ![Immune](Immune.png?raw=true "Immune")
 ![Positive Test Rate](PositiveTestRate.png?raw=true "Positive Test Rate")
